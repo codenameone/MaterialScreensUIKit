@@ -4,6 +4,8 @@
 
 This is a port of the [MSUIKit PSD's](https://epic-pxls.s3.amazonaws.com/downloads/item/f193df5e-6130-4cf1-838e-097bcb0b42d6.zip) to Codename One which allows them to run on all devices. You can see this running in the browser and on device by checking out the [demos page](https://www.codenameone.com/demos-MSUIKit.html).
 
+Check out [this blog](https://www.codenameone.com/blog/template-mobile-material-screens-ui-kit.html) post with a live preview covering this demo.
+
 Following are actual device screenshots of this demo:
 
 ![MSUIKit Screenshot](https://www.codenameone.com/demos/MSUIKit/1.png)
