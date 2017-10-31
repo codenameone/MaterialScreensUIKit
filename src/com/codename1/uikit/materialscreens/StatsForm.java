@@ -35,7 +35,6 @@ import com.codename1.ui.FontImage;
 import com.codename1.ui.Graphics;
 import com.codename1.ui.Image;
 import com.codename1.ui.Label;
-import com.codename1.ui.SideMenuBar;
 import com.codename1.ui.Toolbar;
 import com.codename1.ui.layouts.BorderLayout;
 import com.codename1.ui.layouts.BoxLayout;
@@ -66,7 +65,7 @@ public class StatsForm extends SideMenuBaseForm {
         Button menuButton = new Button("");
         menuButton.setUIID("Title");
         FontImage.setMaterialIcon(menuButton, FontImage.MATERIAL_MENU);
-        menuButton.addActionListener(e -> ((SideMenuBar)getToolbar().getMenuBar()).openMenu(null));
+        menuButton.addActionListener(e -> getToolbar().openSideMenu());
 
         Button settingsButton = new Button("");
         settingsButton.setUIID("Title");
